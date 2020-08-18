@@ -1,0 +1,28 @@
+.main_Add_Driver {
+  margin-top: 100px;
+}
+
+.header {
+  text-align: center;
+  background: #555;
+  color: #f1f1f1;
+  width: 400px;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.NavText {
+  color: black;
+}

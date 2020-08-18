@@ -1,0 +1,45 @@
+.manage_heading {
+  padding-top: 160px;
+  text-align: center;
+  font-family: "Varela Round, sans-serif";
+  font-weight: bolder;
+  font-size: 100px;
+}
+
+.manage_root1 {
+  minwidth: 275px;
+  marginbottom: 30px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1000px) {
+  .manage_heading {
+    padding-top: 160px;
+    text-align: center;
+    font-family: "Varela Round, sans-serif";
+    font-weight: bolder;
+    font-size: 50px;
+  }
+  .manage_root1 {
+    minwidth: 27px;
+    marginbottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1000px) {
+  .dropdoenNon {
+    display: none;
+  }
+}
+
+.Card_div {
+  width: 100%;
+  font-size: 17px;
+}
+.ManageVehicleList_grid {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.divhead {
+  width: 10px;
+}

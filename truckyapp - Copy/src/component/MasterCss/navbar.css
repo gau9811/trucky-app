@@ -1,0 +1,85 @@
+.navbar-h7-tag {
+  font-size: 20px;
+  float: left;
+  margin-left: 10px;
+  /* margin-top: 20px; */
+  color: aliceblue;
+}
+
+.navbar-Home-tag {
+  margin-top: 30px;
+}
+
+.navbar_grid {
+  position: fixed;
+  float: left;
+  overflow: visible;
+  background-color: #373a47;
+  height: 180px;
+  /* padding-bottom: 100px; */
+  width: 100%;
+}
+
+.main3 {
+  margin-left: 150px;
+  padding: 0px 2px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1000px) {
+  .navbar_grid {
+    display: none;
+  }
+  .navbar-h7-tag {
+    font-size: 20px;
+    float: left;
+    margin-left: 10px;
+    /* margin-top: 20px; */
+    color: aliceblue;
+  }
+  .main3 {
+    padding: 0px;
+    margin-top: 0px;
+    height: 0px; /* Used in this example to enable scrolling */
+  }
+}
+
+.header {
+  padding: 10px 100px;
+  box-sizing: border-box;
+}
+
+.nav {
+  width: 100%;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.8);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  position: sticky;
+  top: 0;
+}
+
+.nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0 100px;
+  justify-content: flex-end;
+}
+
+.nav ul li {
+  list-style: none;
+}
+
+.nav ul li a {
+  display: block;
+  color: #fff;
+  padding: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 50px; /**  Rarely used! **/
+}
+
+.nav ul li a:hover,
+.nav ul li a.active {
+  background: #f00;
+}
